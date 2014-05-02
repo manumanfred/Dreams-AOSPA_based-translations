@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+   Copyright 2013 The ParanoidAndroid Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Notification LED category header-->
+    <string name="notification_led_category_title">Ilmoitusvalo</string>
+
+    <!--Notification light dialogs-->
+    <string name="edit_light_settings">Muokkaa valoasetuksia</string>
+    <string name="pulse_speed_title">Pulssin pituus ja nopeus</string>
+    <string name="default_time">Normaali</string>
+    <string name="custom_time">Kustomoitu</string>
+    <string name="dialog_test">Testaa</string>
+    <string name="dialog_delete_title">Poista</string>
+    <string name="dialog_delete_message">Poista valittu kohde?</string>
+    <string name="dialog_test_message">Sammuta näyttö nähdäksesi LEDin toiminnassa, kun olet valmis paina OK.</string>
+    <string name="dialog_test_button">OK</string>
+
+    <!--Display settings screen, notification light settings-->
+    <string name="notification_light_ok">OK</string>
+    <string name="notification_light_reset">Nollaa</string>
+    <string name="notification_light_general_title">Yleiset</string>
+    <string name="notification_light_applist_title">Ohjelmat</string>
+    <string name="notification_light_phonelist_title">Puhelin</string>
+    <string name="notification_light_use_custom">Käytä kustomoituja asetuksia</string>
+    <string name="notification_light_default_value">Oletus</string>
+    <string name="notification_light_enabled">Käytössä</string>
+    <string name="notification_light_disabled">Pois käytöstä</string>
+    <string name="notification_light_missed_call_title">Vastaamaton puhelu</string>
+    <string name="notification_light_voicemail_title">Vastaaja</string>
+    <string name="notification_light_choose_app">Valitse sovellus</string>
+    <string name="notification_light_add">Lisää</string>
+
+    <!--Values for the notification light pulse spinners-->
+    <string name="pulse_length_always_on">Aina päällä</string>
+    <string name="pulse_length_very_short">Erittäin lyhyt</string>
+    <string name="pulse_length_short">Lyhyt</string>
+    <string name="pulse_length_normal">Normaali</string>
+    <string name="pulse_length_long">Pitkä</string>
+    <string name="pulse_length_very_long">Erittäin pitkä</string>
+    <string name="pulse_speed_very_fast">Erittäin nopea</string>
+    <string name="pulse_speed_fast">Nopea</string>
+    <string name="pulse_speed_normal">Normaali</string>
+    <string name="pulse_speed_slow">Hidas</string>
+    <string name="pulse_speed_very_slow">Erittäin hidas</string>
+
+    <!-- Volume adjust sounds -->
+    <string name="volume_adjust_sounds_enable_summary">Anna äänimerkki kun äänenvoimakkuutta säädetään voimakkuusnäppäimillä?</string>
+
+    <!-- Link volumes -->
+    <string name="link_volume_ringtones">Yhdistä soitto- &amp; ilmoitusäänet</string>
+    <string name="volume_ring_only_description">Soittoääni</string>
+
+    <string name="increasing_ring_title">Nouseva soittoääni</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <string name="checkbox_increasing_ring">Päälle</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">Soittoäänen aloitusvoimakkuus</string>
+    <string name="increasing_ring_volume_notice">Notice:\nAs Jos aloitusvoimakkuus on asetettu suuremmalle kuin ilmoitus-/soittoäänen voimakkuus, käytetään soittoäänen voimakkuutta.</string>
+    <string name="increasing_ring_interval_title">Lisää aikaväliä</string>
+    <string name="increasing_ring_interval_eachring">Jokaisella toistolla</string>
+    <string name="increasing_ring_interval_half_second">Puoli sekuntia</string>
+    <string name="increasing_ring_interval_1second">1 sekunti</string>
+    <string name="increasing_ring_interval_2seconds">2 sekuntia</string>
+    <string name="increasing_ring_interval_3sekuntia">3 sekuntia</string>
+    <string name="increasing_ring_interval_5sekuntia">5 sekuntia</string>
+    <string name="increasing_ring_interval_10sekuntia">10 sekuntia</string>
+
+    <!--Volume buttons category-->
+    <string name="volume_buttons_category">Äänenvoimakkuusnäppäimet</string>
+
+    <!--Volume buttons wake-->
+    <string name="volume_wake_title">Äänenvoimakkuusnäppäinten avulla herätys</string>
+    <string name="volume_wake_summary">Painamalla kumpaa tahansa volyyminäppäintä puhelin herää.</string>
+
+    <!--Lockscreen see through-->
+    <string name="see_through_title">Läpinäkyvyys</string>
+    <string name="see_through_summary">Näyttää lukitusnäytön läpi. Tietosi saattaa näkyä ulkopuolisille.</string>
+
+    <!--AppOps-->
+    <string name="appops_settings_title">Sovellusten oikeudet</string>
+
+    <!--User preferences settings-->
+    <string name="personalization">Personalisointi</string>
+    <string name="reset_user_preferences_title">Nollaa käyttäjän asetukset</string>
+    <string name="reset_user_preferences_summary">Palauttaa käyttäjän käyttöliittymän alkuperäisiin asetuksiin</string>
+    <string name="reset_user_preferences_dialog">Oletko varma että haluat palauttaa tehdasasetuksiin?</string>
+
+    <!--Battery icon selection-->
+    <string name="battery_status_icon_title">Tilaikoni</string>
+    <string name="battery_bar">Palkki</string>
+    <string name="battery_bar_percent">Palkki &amp; prosentti</string>
+    <string name="battery_circle">Ympyrä</string>
+    <string name="battery_circle_percent">Ympyrä &amp; prosentti</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">Varoitus</string>
+    <string name="custom_runtime_warning_message">ART: ParanoidAndroid ei tue ART:in käyttöä. Tämä asetus on sisällytetty vain testaustarkoituksiin ja on mahdollista, että tämän käyttöön ottaminen aiheuttaa epävakautta, "jäätymisiä", tietojen häviämistä tai jopa estää laitteesi käynnistymisen. Mene &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; Lisätietoa.&lt;br/&gt;&lt;br/&gt;Pyydämme, että ette lähetä bugiraportteja jos olette ottaneet ART:n käyttöön.&lt;br/&gt;&lt;br/&gt;Oletko varma että haluat käynnistää uudelleen vaihtamalla <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>  <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+
+    <!-- Lockscreen widgets -->
+    <string name="security_maximize_widgets_title">Maksimoi vimpaimet</string>
+
+    <!--PA version-->
+    <string name="pa_version">ParanoidAndroid versio</string>
+    <string name="pa_version_default">Tuntematon</string>
+</resources>
