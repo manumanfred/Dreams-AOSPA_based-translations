@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+   Copyright 2013 The ParanoidAndroid Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Lähtesta</string>
+    <string name="profile_reset_message">Kas tahate kustutada kõik kasutaja loodud profiilid ja rakenduste rühmad ning taastada need vaikimisi?</string>
+
+    <!--Notification LED category header-->
+    <string name="notification_led_category_title">Märguandetuli</string>
+
+    <!--Notification light dialogs-->
+    <string name="edit_light_settings">Redigeeri valguse seadeid</string>
+    <string name="pulse_speed_title">Impulsi kestus ja kiirus</string>
+    <string name="default_time">Tavaline</string>
+    <string name="custom_time">Kohandatud</string>
+    <string name="dialog_test">Proovi</string>
+    <string name="dialog_delete_title">Kustuta</string>
+    <string name="dialog_delete_message">Kas tahate eemaldada valitud elemendi?</string>
+    <string name="dialog_test_message">Sulgege ekraan, et näha teade tegevuses või sulgege see dialoog testi lõpetamiseks</string>
+    <string name="dialog_test_button">Sulge</string>
+
+    <!--Display settings screen, notification light settings-->
+    <string name="notification_light_ok">OK</string>
+    <string name="notification_light_reset">Taasta</string>
+    <string name="notification_light_general_title">Üldine</string>
+    <string name="notification_light_applist_title">Rakendused</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Kasutage kohandatud väärtusi</string>
+    <string name="notification_light_default_value">Vaikimisi</string>
+    <string name="notification_light_enabled">kasutusel</string>
+    <string name="notification_light_disabled">Väljas</string>
+    <string name="notification_light_missed_call_title">Vastamata kõne</string>
+    <string name="notification_light_voicemail_title">Kõnepost</string>
+    <string name="notification_light_choose_app">Valige rakendus</string>
+    <string name="notification_light_add">Lisa</string>
+
+    <!--Values for the notification light pulse spinners-->
+    <string name="pulse_length_always_on">Alati peal</string>
+    <string name="pulse_length_very_short">Väga lühike</string>
+    <string name="pulse_length_short">Lühike</string>
+    <string name="pulse_length_normal">Tavaline</string>
+    <string name="pulse_length_long">Pikk</string>
+    <string name="pulse_length_very_long">Väga pikk</string>
+    <string name="pulse_speed_very_fast">Väga kiire</string>
+    <string name="pulse_speed_fast">Kiire</string>
+    <string name="pulse_speed_normal">Tavaline</string>
+    <string name="pulse_speed_slow">Aeglane</string>
+    <string name="pulse_speed_very_slow">Väga aeglane</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Aku märguandetuli</string>
+    <string name="battery_low_pulse_title">Vilgu kui aku on peaaegu tühi</string>
+    <string name="battery_light_list_title">Värvid</string>
+    <string name="battery_light_low_color_title">Aku on peaaegu tühi</string>
+    <string name="battery_light_medium_color_title">Aku laeb</string>
+    <string name="battery_light_full_color_title">Aku on täis laetud</string>
+
+    <!-- Volume adjust sounds -->
+    <string name="volume_adjust_sounds_enable_summary">Esita heli reguleerides helitugevust helitugevuse nupudega</string>
+
+    <!-- Link volumes -->
+    <string name="link_volume_ringtones">Ühenda helin &amp; teavituse helin</string>
+    <string name="volume_ring_only_description">Helin</string>
+
+    <string name="increasing_ring_title">Tugevnev helin</string>
+    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
+    <string name="checkbox_increasing_ring">Võta kasutusele</string>
+    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
+    <string name="increasing_ring_min_volume_title">Helitugevus alguses</string>
+    <string name="increasing_ring_volume_notice">Pane tähele\nKui seate alguse helitugevuse kõvemaks kui esialgse helitugevuse, helin heliseb algse helitugevusega</string>
+    <string name="increasing_ring_interval_title">Tõusu vahe</string>
+    <string name="increasing_ring_interval_eachring">Igal ringil</string>
+    <string name="increasing_ring_interval_half_second">Pool sekundit</string>
+    <string name="increasing_ring_interval_1second">1 sekund</string>
+    <string name="increasing_ring_interval_2seconds">2 sekundit</string>
+    <string name="increasing_ring_interval_3seconds">3 sekundit</string>
+    <string name="increasing_ring_interval_5seconds">5 sekundit</string>
+    <string name="increasing_ring_interval_10seconds">10 sekundit</string>
+
+    <!--Volume buttons category-->
+    <string name="volume_buttons_category">Helitugevuse nupud</string>
+
+    <!--Volume buttons wake-->
+    <string name="volume_wake_title">Helitugevuse nuppudest ärka</string>
+    <string name="volume_wake_summary">Helitugevuse nuppu vajutades seade ärkab</string>
+
+    <!--Lockscreen see through-->
+    <string name="see_through_title">Näe läbi</string>
+    <string name="see_through_summary">Näitab sisu teie lukustusekraani tagant. Teie andmed võivad olla nähtavad teistele, kes teie lähedal on</string>
+
+    <!--AppOps-->
+    <string name="appops_settings_title">Rakenduse privaatsus</string>
+
+    <!--User preferences settings-->
+    <string name="personalization">Personaliseerimine</string>
+    <string name="reset_user_preferences_title">Taasta eelistused</string>
+    <string name="reset_user_preferences_summary">Taastab kasutajaliidest eelistused nende vaikeväärtustele</string>
+    <string name="reset_user_preferences_dialog">Kas olete kindel, et tahate taastada oma eelistused?</string>
+
+    <!--Battery icon selection-->
+    <string name="battery_status_icon_title">Olekuikoon</string>
+    <string name="battery_bar">Riba</string>
+    <string name="battery_bar_percent">Riba &amp; protsent</string>
+    <string name="battery_circle">Ring</string>
+    <string name="battery_circle_percent">Ring &amp; protsent</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">Hoiatus</string>
+    <string name="custom_runtime_warning_message">ParanoidAndroidi tiim ei toeta Androidi ART-i. See säte on lisatud ainult eksperimenteerimiseks ja see võib põhjustada ebastabiilsust, kokkujooksmist, andmete kadumist või ennetada õiget käivitamist teie seadmel. Külasta lehte &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt;, et saada sellest rohkemat teavet.&lt;br/&gt;&lt;br/&gt;Palume teil mitte teha veaaruandeid, kui kasutate Androidi ART käitusaega.&lt;br/&gt;&lt;br/&gt;Kas olete kindel, et tahate uuesti käivitada teie seadme käitusaja muutmiseks sellest <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> sellesse <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+
+    <!-- Lockscreen widgets -->
+    <string name="security_maximize_widgets_title">Maksimeeri vidinad</string>
+
+    <!--PA version-->
+    <string name="pa_version">ParanoidAndroidi versioon</string>
+    <string name="pa_version_default">Tundmatu</string>
+
+    <!-- Strings for Dialog ok button -->
+    <string name="ok">"Ok"</string>
+</resources>
