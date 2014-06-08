@@ -20,6 +20,10 @@
     <string name="profile_reset_title">Lähtesta</string>
     <string name="profile_reset_message">Kas tahate kustutada kõik kasutaja loodud profiilid ja rakenduste rühmad ning taastada need vaikimisi?</string>
 
+    <!--Notification peek-->
+    <string name="notification_peek_title">Teavituse piilumine</string>
+    <string name="notification_peek_summary">Show latest notification after picking up your device</string>
+
     <!--Notification LED category header-->
     <string name="notification_led_category_title">Märguandetuli</string>
 
